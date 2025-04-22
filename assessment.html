@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Assessment | FuturePath</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">Career Weave</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="advisor.html">AI Advisor</a></li>
+                    <li><a href="assessment.html" class="active">Assessment</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-nav-toggle">&#9776;</div>
+        </div>
+        <div class="sidebar">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="advisor.html">AI Advisor</a></li>
+                <li><a href="assessment.html">Assessment</a></li>
+                <li><a href="resources.html">Resources</a></li>
+            </ul>
+            <div class="login-mobile">
+                <a href="login.html">Login</a>
+            </div>
+        </div>
+        <div class="overlay"></div>
+        </div>
+    </header>
+
+    <main class="assessment-container">
+        <div class="container">
+            <h1>Career Assessment</h1>
+            <p>Answer these questions honestly to get personalized career recommendations based on your interests, values, and preferred working style.</p>
+            
+            <div class="assessment-progress">
+                <div class="progress-bar">
+                    <div class="progress" id="progressBar"></div>
+                </div>
+                <span id="progressText" style="padding-right: 10px;">Question 1 of 8</span>
+                <span id="progressPercent"> 19%</span>
+            </div>
+            
+            <div class="assessment-question">
+                <h2 id="questionText">Which activities do you enjoy the most?</h2>
+                <div class="options" id="optionsContainer">
+                    <!-- Options will be inserted here by JavaScript -->
+                </div>
+            </div>
+            
+            <div class="assessment-navigation">
+                <button class="btn secondary" id="prevButton" disabled>Previous</button>
+                <button class="btn primary" id="nextButton">Next</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <h3>Career Weave</h3>
+                    <p>Guiding students toward fulfilling career paths through AI-powered recommendations and personalized assessments.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="advisor.html">AI Advisor</a></li>
+                        <li><a href="assessment.html">Assessment</a></li>
+                        <li><a href="resources.html">Resources</a></li>
+                    </ul>
+                </div>
+                <div class="footer-resources">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Career Guides</a></li>
+                        <li><a href="#">Career Videos</a></li>
+                        <li><a href="#">Articles</a></li>
+                        <li><a href="#">Career Tools</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li>Email: support@futurepath.edu</li>
+                        <li>Phone: +1 (555) 123-4567</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 FuturePath. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assessment.js"></script>
+</body>
+</html>
